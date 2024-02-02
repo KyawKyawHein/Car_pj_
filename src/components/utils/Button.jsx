@@ -8,7 +8,8 @@ const Button = ({bgColor="blue",children,className=""}) => {
         'p-2',
         'border',
         'rounded',
-        'rounded-full'
+        'rounded-full',
+        'mx-2'
     ]
     switch (bgColor) {
         case 'blue':

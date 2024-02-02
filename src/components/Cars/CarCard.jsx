@@ -27,7 +27,7 @@ const CarCard = ({car}) => {
         getNameCapitalize()
     },[])
     return (
-        <div className='car-container p-1 lg:p-5 '>
+        <div className='car-container p-1 lg:p-5 my-2 md:my-0'>
             <h1 className='text-2xl font-semibold'>{name}</h1>
             <div className="my-2">
                 <p className='text-2xl'><sup>$</sup><span className='font-bold text-3xl'>53</span><sub><small>/day</small></sub></p>

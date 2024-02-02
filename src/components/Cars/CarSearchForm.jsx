@@ -16,8 +16,8 @@ const CarSearchForm = ({searchCar}) => {
         searchCar({make:searchName,fuel:fuelRef.current.value,year:yearRef.current.value});
     }
     return (
-        <div className="flex justify-between items-center my-4 mt-6">
-            <form onSubmit={(e)=>submitController(e)} className='flex gap-5 items-center '>
+        <div className="block md:flex justify-between items-center my-4 mt-6">
+            <form onSubmit={(e)=>submitController(e)} className='flex gap-5 items-center my-2 md:my-0'>
                 <div className="max-w-md flex gap-2 items-center ">
                     <div className=" block">
                         <img src={ModelIcon} className='w-6' />
