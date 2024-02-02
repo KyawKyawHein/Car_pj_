@@ -1,5 +1,4 @@
 import axios from "axios";
-import axiosClient from "../axiosClient"
 
 export const getCars=  async({make,model,year,limit,fuel})=>{
     const options = {
