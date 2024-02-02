@@ -1,0 +1,12 @@
+.car-container{
+}
+.car-detail-view-more {
+    display: none;
+}
+.car-container:hover .car-detail-show{
+    display: none;
+}
+
+.car-container:hover .car-detail-view-more {
+    display: block;
+}
